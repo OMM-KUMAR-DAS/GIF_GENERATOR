@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*--------------------------------------------  gif---------------------------------------------------------------*/
+*{
+  margin:0;
+  padding:0;
+  background-color: aqua;
+}
+.con{
+  width:50%;
+  border: 4px solid black;
+  border-radius: 15px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  background-color: bisque;
+}
+.bt{
+  display: block;
+  border: 3px solid black;
+  padding:5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  width:100%;
+  font-size: larger;
+}
+.im{
+  display:block;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.head{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: coral;
+}
+.in{
+  display:block;
+  border: 3px solid black;
+  padding:5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 15px;
+  width:100%;
+  font-size: larger;
+}
+
+@media (max-width:500px) {
+  .con{
+      width:90%;
+      height:60vh;
+      margin-top: 0%;
+     
+  }
+  .im{
+    width:100%;
+  }
+}
+
+
